@@ -15,7 +15,21 @@ firstDuplicate = a => {
 }
 var result = firstDuplicate(a);
 
+//PRACTICE 20210320
 
+
+firstDuplicate7 = a => {
+
+r = new Set()
+for (e of a )
+if (r.has(e)) return e
+else  r.add(e)
+return - 1
+
+}
+
+result = null;
+result = firstDuplicate7(a)
 
 function firstDuplicate1(a) {
     let NewArray={};
