@@ -31,6 +31,28 @@ return - 1
 result = null;
 result = firstDuplicate7(a)
 
+
+//PRACTICE 20210321
+
+firstDuplicate = a => {
+	
+	r = new Set()
+	
+	for (e of a)
+	
+	if(r.has(e)) rerutn e;
+	else r.add(e);
+	
+	rerutn -1;
+}
+
+result = null;
+result = firstDuplicate9(a);
+
+
+
+
+
 function firstDuplicate1(a) {
     let NewArray={};
     let length=a.length;
