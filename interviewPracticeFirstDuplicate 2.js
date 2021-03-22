@@ -34,21 +34,37 @@ result = firstDuplicate7(a)
 
 //PRACTICE 20210321
 
-firstDuplicate = a => {
+firstDuplicate9 = a => {
 	
 	r = new Set()
 	
 	for (e of a)
 	
-	if(r.has(e)) rerutn e;
+	if(r.has(e)) return e;
 	else r.add(e);
 	
-	rerutn -1;
+	return -1;
 }
 
 result = null;
 result = firstDuplicate9(a);
 
+
+//PRACTICE 20210322
+
+debugger;
+firstDuplicate10 = a => {
+	
+	r = new Set()
+	for(e of a)
+	if(r.has(e)) return e;
+	else r.add(e);
+	return - 1;
+	
+}
+
+result = null;
+result = firstDuplicate10(a)
 
 
 
@@ -71,6 +87,12 @@ function firstDuplicate1(a) {
 }
 result = null;
 result = firstDuplicate1(a);
+
+
+
+
+
+
 
 
 debugger;
